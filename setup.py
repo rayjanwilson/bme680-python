@@ -50,5 +50,5 @@ setup(
     classifiers=classifiers,
     packages=['bme680'],
     py_modules=[],
-    install_requires=[smbus2]
+    install_requires=['smbus2']
 )
