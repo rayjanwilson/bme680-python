@@ -48,7 +48,7 @@ setup(
     keywords='Raspberry Pi',
     url='http://www.pimoroni.com',
     classifiers=classifiers,
-    # packages=['bme680'],
-    py_modules=['bme680'],
+    packages=['bme680'],
+    # py_modules=['bme680'],
     install_requires=['smbus2']
 )
